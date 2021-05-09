@@ -1,0 +1,7 @@
+@import "../../node_modules/materialize-css/sass/components/color-variables";
+@import "../../node_modules/materialize-css/sass/components/variables";
+
+$primary-color: color("blue", "darken-2") !important;
+$navbar-font-color: color("indigo", "lighten-5") !important;
+
+@import "../node_modules/materialize-css/sass/materialize.scss";

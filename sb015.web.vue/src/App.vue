@@ -1,18 +1,16 @@
 <template>
   <nav class="">
-    <div class="nav-wrapper blue darken-2">
-      <router-link to="/" class="brand-logo left indigo-text text-lighten-5"
-        >SB015</router-link
-      >
+    <div class="nav-wrapper">
+      <router-link to="/" class="brand-logo left">SB015</router-link>
       <ul class="right">
         <li>
           <a class="btn waves-effect waves-light" href="#">Place Ad</a>
         </li>
         <li class="hide-on-med-and-down">
-          <a href="#" class="indigo-text text-lighten-5">Login</a>
+          <a href="#">Login</a>
         </li>
         <li class="hide-on-med-and-down">
-          <a href="#" class="indigo-text text-lighten-5">Sign up</a>
+          <a href="#">Sign up</a>
         </li>
         <li>
           <a
@@ -20,9 +18,7 @@
             data-target="mobile-demo"
             class="sidenav-trigger show-on-large"
           >
-            <i class="material-icons indigo-text text-lighten-5"
-              >account_circle</i
-            >
+            <i class="material-icons">account_circle</i>
           </a>
         </li>
       </ul>
@@ -59,3 +55,6 @@ export default defineComponent({
   },
 });
 </script>
+<style lang="sass">
+@import "./styles/app.scss"
+</style>
