@@ -55,6 +55,6 @@ export default defineComponent({
   },
 });
 </script>
-<style lang="sass">
+<style lang="scss">
 @import "./styles/app.scss"
 </style>
