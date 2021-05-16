@@ -21,5 +21,5 @@ steps:
 - task: Npm@1
   inputs:
     command: 'install'
-    workingDir: '/sb015.web.vue/'
+    workingDir: 'sb015.web.vue/'
     verbose: true
