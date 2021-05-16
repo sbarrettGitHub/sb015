@@ -1,0 +1,11 @@
+{
+  "menu": {
+    "about": "À propos",
+    "login": "Connexion / Inscription",
+    "myAds": "Mes annonces",
+    "messages": "Messages",
+    "placeAd": "Annonce",
+    "savedAds": "Annonces enregistrées",
+    "savedSearches": "Recherches enregistrées"
+  }
+}

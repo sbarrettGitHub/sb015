@@ -1,0 +1,11 @@
+{
+  "menu": {
+    "about": "About",
+    "login": "Login / Sign Up",
+    "myAds": "My Ads",
+    "messages": "Messages",
+    "placeAd": "Place Ad",
+    "savedAds": "Saved Ads",
+    "savedSearches": "Saved Searches"
+  }
+}
