@@ -1,5 +1,6 @@
 <template>
   <h1>Home Page</h1>
+  {{ $t("menu.login") }}
   <div v-if="loading">Loading</div>
 </template>
 <script lang="ts">
