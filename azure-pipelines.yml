@@ -23,3 +23,9 @@ steps:
     command: 'install'
     workingDir: 'sb015.web.vue/'
     verbose: true
+- task: Npm@2
+  inputs:
+    command: 'custom'
+    customCommand: 'run build'
+    workingDir: 'sb015.web.vue/'
+    verbose: true
