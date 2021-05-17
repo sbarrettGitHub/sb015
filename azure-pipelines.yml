@@ -19,11 +19,13 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 - task: Npm@1
+  displayName: 'Vue - npm install'
   inputs:
     command: 'install'
     workingDir: 'sb015.web.vue/'
     verbose: true
-- task: Npm@2
+- task: Npm@1
+  displayName: 'Vue - npm run build'
   inputs:
     command: 'custom'
     customCommand: 'run build'
